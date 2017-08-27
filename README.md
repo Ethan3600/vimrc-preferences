@@ -14,4 +14,6 @@ https://github.com/powerline/powerline
 
 > sudo apt install powerline 
 
- 
+--------
+
+For other plugins and features, checkout: [VimAwesome](https://vimawesome.com/) 
