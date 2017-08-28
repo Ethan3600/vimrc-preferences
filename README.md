@@ -16,4 +16,6 @@ https://github.com/powerline/powerline
 
 --------
 
+I recommend [YouCompleteMe](http://valloric.github.io/YouCompleteMe/) for Vim autocompletion
+
 For other plugins and features, checkout: [VimAwesome](https://vimawesome.com/) 
