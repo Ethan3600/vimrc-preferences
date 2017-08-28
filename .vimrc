@@ -30,3 +30,12 @@ set backspace=indent,eol,start
 " This allows you you use backspace like a normal text editor
 " Vim does some wierd stuff with backspaces
 " https://vi.stackexchange.com/questions/2162/why-doesnt-the-backspace-key-work-in-insert-mode
+
+let g:neocomplete#enable_at_startup = 1
+" Enable neocomplete.
+
+let g:neocomplete#enable_smart_case = 1
+" use smart case
+
+let g:neocomplete#sources#syntax#min_keyword_length = 3
+" Set minimum syntax keyword length.
