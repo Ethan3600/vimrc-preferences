@@ -10,9 +10,9 @@ https://github.com/tpope/vim-pathogen
 https://github.com/altercation/vim-colors-solarized
 https://github.com/powerline/powerline
 
-    Note: for powerline, on linux you will need to run the following command:
+Note: for powerline, on linux you will need to run the following command:
 
-> sudo apt install powerline 
+`sudo apt install powerline`
 
 --------
 
