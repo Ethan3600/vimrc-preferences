@@ -25,6 +25,8 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 " Automatically enter the context of the editor rather than NERDTree
 " Comment this line if you want to start out in NERDTree
+let NERDTreeShowHidden=1
+" Makes NERDTree show hidden files (e.g. hidden files)
 
 set backspace=indent,eol,start
 " This allows you you use backspace like a normal text editor
