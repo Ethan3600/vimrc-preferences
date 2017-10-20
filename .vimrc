@@ -22,9 +22,11 @@ set expandtab
 
 autocmd VimEnter * NERDTree
 " Automatically opens NERDTree 
-autocmd VimEnter * wincmd p
+" autocmd VimEnter * wincmd p
 " Automatically enter the context of the editor rather than NERDTree
 " Comment this line if you want to start out in NERDTree
+let NERDTreeShowHidden=1
+" Makes NERDTree show hidden files (e.g. hidden files)
 
 set backspace=indent,eol,start
 " This allows you you use backspace like a normal text editor
@@ -39,3 +41,28 @@ let g:neocomplete#enable_smart_case = 1
 
 let g:neocomplete#sources#syntax#min_keyword_length = 3
 " Set minimum syntax keyword length.
+
+" ===================
+"   Fuzzy searching
+" ===================
+
+" If installed using Homebrew
+set rtp+=/usr/local/opt/fzf
+
+" ====================
+"       Vdebug
+" ====================
+
+" Go to https://github.com/joonty/vdebug for more information
+
+let g:vdebug_options = {
+\   'path_maps': {
+\       "/vagrant/magento/": "/var/www/virtual/Operations-Development/boxes/homewetbar/sync/magento/",
+\   },
+\}
+
+" You can also run commands inside Vim if all else fails:
+"   let g:vdebug_options['path_maps'] = {"/vagrant/magento":"/var/www/virtual/Operations-Development/boxes/homewetbar/sync/magento"}
+"   Sets up path maps for debugging using Vdebug with vagrant
+"   First param is the Vagrant path to your project folder, the second is for
+"   the path to the same project on your host (not the VM)
