@@ -46,8 +46,11 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 "   Fuzzy searching
 " ===================
 
-" If installed using Homebrew
 set rtp+=/usr/local/opt/fzf
+" If installed using Homebrew
+
+autocmd VimEnter * nnoremap <c-p> :Files<CR>
+" Fuzzy searching comand shortcut (ctrl + p)
 
 " ====================
 "       Vdebug
