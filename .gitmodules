@@ -1,0 +1,19 @@
+[submodule "fzf"]
+    path = bundle/fzf.vim
+    url = git@github.com:junegunn/fzf.git
+
+[submodule "neocomplete"]
+    path = bundle/neocomplete.vim
+    url = git@github.com:Shougo/neocomplete.vim.git
+
+[submodule "nerdtree"]
+    path = bundle/nerdtree
+    url = git@github.com:scrooloose/nerdtree.git
+
+[submodule "vdebug"]
+    path = bundle/vdebug
+    url = git@github.com:joonty/vdebug.git
+
+[submodule "vim-colors-solarized"]
+    path = bundle/vim-colors-solarized
+    url = git@github.com:altercation/vim-colors-solarized.git
