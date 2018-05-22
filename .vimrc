@@ -49,7 +49,7 @@ let g:neocomplete#sources#syntax#min_keyword_length = 3
 set rtp+=/usr/local/opt/fzf
 " If installed using Homebrew
 
-autocmd VimEnter * nnoremap <c-p> :Files<CR>
+nnoremap <c-p> :FZF<CR>
 " Fuzzy searching comand shortcut (ctrl + p)
 
 " ====================
@@ -58,14 +58,22 @@ autocmd VimEnter * nnoremap <c-p> :Files<CR>
 
 " Go to https://github.com/joonty/vdebug for more information
 
-let g:vdebug_options = {
-\   'path_maps': {
-\       "/vagrant/magento/": "/var/www/virtual/Operations-Development/boxes/homewetbar/sync/magento/",
-\   },
-\}
+" let g:vdebug_options = {
+" \   'path_maps': {
+" \       "/vagrant/magento/": "/var/www/virtual/Operations-Development/boxes/IndustryWest-IndustryWest/sync/magento/",
+" \   },
+" \}
 
 " You can also run commands inside Vim if all else fails:
 "   let g:vdebug_options['path_maps'] = {"/vagrant/magento":"/var/www/virtual/Operations-Development/boxes/homewetbar/sync/magento"}
 "   Sets up path maps for debugging using Vdebug with vagrant
 "   First param is the Vagrant path to your project folder, the second is for
 "   the path to the same project on your host (not the VM)
+
+" ====================
+"   Custom Mappings
+" ====================
+
+" Map NERDTreeFind to shift + f
+noremap <S-f> :NERDTreeFind<CR>
+
