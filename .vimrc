@@ -1,14 +1,11 @@
 execute pathogen#infect()
 syntax on
 colorscheme solarized
+let g:airline_powerline_fonts = 1
 
 set number
 set incsearch
 set hlsearch
-
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
 
 set laststatus=2
 
@@ -25,6 +22,7 @@ autocmd VimEnter * NERDTree
 " autocmd VimEnter * wincmd p
 " Automatically enter the context of the editor rather than NERDTree
 " Comment this line if you want to start out in NERDTree
+"
 let NERDTreeShowHidden=1
 " Makes NERDTree show hidden files (e.g. hidden files)
 
@@ -32,6 +30,10 @@ set backspace=indent,eol,start
 " This allows you you use backspace like a normal text editor
 " Vim does some wierd stuff with backspaces
 " https://vi.stackexchange.com/questions/2162/why-doesnt-the-backspace-key-work-in-insert-mode
+
+" ===================
+"    Neo Complete
+" ===================
 
 let g:neocomplete#enable_at_startup = 1
 " Enable neocomplete.
