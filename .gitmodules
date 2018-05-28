@@ -30,6 +30,14 @@
     path = bundle/tcomment_vim
     url = git@github.com:tomtom/tcomment_vim.git
 
+[submodule "vim-airline"]
+    path = bundle/vim-airline
+    url = git@github.com:vim-airline/vim-airline.git 
+
+[submodule "vim-airline-themes"]
+    path = bundle/vim-airline-themes
+    url = git@github.com:vim-airline/vim-airline-themes.git
+    
 [submodule "Powerline Fonts"]
     path = dependencies/fonts
     url = git@github.com:powerline/fonts.git 
