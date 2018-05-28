@@ -2,19 +2,31 @@
 
 My .vimrc configuration file for customizing vim
 
+Works best with Vim 8
+
 ## Installation
 
-Follow the instructions in these repos (preferably in this order):
+[Install Pathogen](https://github.com/tpope/vim-pathogen)
 
-https://github.com/tpope/vim-pathogen
+Clone this repository
 
-https://github.com/altercation/vim-colors-solarized
+> `git clone git@github.com:Ethan3600/vimrc-preferences.git ~/vimrc-preferences`
 
-https://github.com/powerline/powerline
+Install Sub Modules
 
-Note: for powerline, on linux you will need to run the following command:
+> `git submodule update --recursive`
 
-`sudo apt install powerline`
+Install Powerline Font
+
+> `cd ~/vimrc-preferences/dependencies/fonts && ./install.sh && cd .. && rm -rf fonts/`
+
+Symlink Bundle Directory
+
+`cd ~/.vim/ && ln -s ~/vimrc-preferences/bundle ./`
+
+Copy & Compile Vimrc File
+
+`cp ~/vimrc-preference/.vimrc ~/ && source ~/.vimrc`
 
 --------
 
