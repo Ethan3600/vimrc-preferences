@@ -1,8 +1,10 @@
-# vimrc-preferences
+# My Vim Preferences
 
 My .vimrc configuration file for customizing vim
 
 Works best with Vim 8
+
+<img src="https://user-images.githubusercontent.com/6549623/40628795-25a82f62-6295-11e8-8c5b-ef1fa1d0eaf7.png"/>
 
 ## Installation
 
