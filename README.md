@@ -10,15 +10,15 @@ Works best with Vim 8
 
 Clone this repository
 
-> `git clone git@github.com:Ethan3600/vimrc-preferences.git ~/vimrc-preferences`
+`git clone git@github.com:Ethan3600/vimrc-preferences.git ~/vimrc-preferences`
 
 Install Sub Modules
 
-> `git submodule update --recursive`
+`git submodule update --recursive`
 
 Install Powerline Font
 
-> `cd ~/vimrc-preferences/dependencies/fonts && ./install.sh && cd .. && rm -rf fonts/`
+`cd ~/vimrc-preferences/dependencies/fonts && ./install.sh && cd .. && rm -rf fonts/`
 
 Symlink Bundle Directory
 
