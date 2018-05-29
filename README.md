@@ -16,7 +16,7 @@ Clone this repository
 
 Install Sub Modules
 
-`git submodule update --recursive`
+`git submodule update --init`
 
 Install Powerline Font
 
