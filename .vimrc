@@ -73,6 +73,20 @@ nnoremap <c-p> :FZF<CR>
 "   the path to the same project on your host (not the VM)
 
 " ====================
+"     ALE Configs 
+" ====================
+
+let g:ale_completion_enabled = 1
+" Enable completion where available.
+
+let g:ale_fixers = {
+\   'javascript': ['flow','eslint'],
+\   'php': ['php_cs_fixer', 'phpcbf'],
+\}
+" Put this in vimrc or a plugin file of your own.
+" After this is configured, :ALEFix will try and fix your code
+
+" ====================
 "   Custom Mappings
 " ====================
 
