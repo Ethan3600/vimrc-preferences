@@ -41,3 +41,11 @@
 [submodule "Powerline Fonts"]
     path = dependencies/fonts
     url = git@github.com:powerline/fonts.git 
+
+[submodule "Editor Config"]
+    path = bundle/editorconfig-vim
+    url = git@github.com:editorconfig/editorconfig-vim.git
+
+[submodule "Ripgrep"]
+    path = bundle/vim-ripgrep
+    url = git@github.com:jremmen/vim-ripgrep.git
