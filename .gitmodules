@@ -49,3 +49,8 @@
 [submodule "Ripgrep"]
     path = bundle/vim-ripgrep
     url = git@github.com:jremmen/vim-ripgrep.git
+
+[submodule "Vim Surround"]
+    path = bundle/vim-surround
+    url = git@github.com:tpope/vim-surround.git
+
