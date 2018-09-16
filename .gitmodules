@@ -1,6 +1,6 @@
 [submodule "fzf"]
     path = bundle/fzf.vim
-    url = git@github.com:junegunn/fzf.git
+    url = git@github.com:junegunn/fzf.vim.git 
 
 [submodule "neocomplete"]
     path = bundle/neocomplete.vim
